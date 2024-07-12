@@ -1,0 +1,113 @@
+@charset "utf-8";
+@font-face {
+  font-family: "A2RecordGothic";
+  src: local("RecordGothic Thin"),
+    url(../fonts/A2RecordGothic-Thin.woff2) format("woff2");
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+}
+@font-face {
+  font-family: "A2RecordGothic";
+  src: local("RecordGothic Thin Italic"),
+    url(../fonts/A2RecordGothic-ThinItalic.woff2) format("woff2");
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+}
+@font-face {
+  font-family: "A2RecordGothic";
+  src: local("RecordGothic Light"),
+    url(../fonts/A2RecordGothic-Light.woff2) format("woff2");
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+}
+@font-face {
+  font-family: "A2RecordGothic";
+  src: local("RecordGothic LightItalic"),
+    url(../fonts/A2RecordGothic-LightItalic.woff2) format("woff2");
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+}
+@font-face {
+  font-family: "A2RecordGothic";
+  src: local("RecordGothic Regular"),
+    url(../fonts/A2RecordGothic-Regular.woff2) format("woff2");
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+}
+@font-face {
+  font-family: "A2RecordGothic";
+  src: local("RecordGothic RegularItalic"),
+    url(../fonts/A2RecordGothic-Italic.woff2) format("woff2");
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+}
+@font-face {
+  font-family: "A2RecordGothic";
+  src: local("RecordGothic Medium"),
+    url(../fonts/A2RecordGothic-Medium.woff2) format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "A2RecordGothic";
+  src: local("RecordGothic MediumItalic"),
+    url(../fonts/A2RecordGothic-MediumItalic.woff2) format("woff2");
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "A2RecordGothic";
+  src: local("RecordGothic Bold"),
+    url(../fonts/A2RecordGothic-Bold.woff2) format("woff2");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: "A2RecordGothic";
+  src: local("RecordGothic BoldItalic"),
+    url(../fonts/A2RecordGothic-BoldItalic.woff2) format("woff2");
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: "A2RecordGothic";
+  src: local("RecordGothic ExtraBold"),
+    url(../fonts/A2RecordGothic-Extrabold.woff2) format("woff2");
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+@font-face {
+  font-family: "A2RecordGothic";
+  src: local("RecordGothic ExtraBoldItalic"),
+    url(../fonts/A2RecordGothic-ExtraboldItalic.woff2) format("woff2");
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+}
+@font-face {
+  font-family: "A2RecordGothic";
+  src: local("RecordGothic Black"),
+    url(../fonts/A2RecordGothic-Black.woff2) format("woff2");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: "A2RecordGothic";
+  src: local("RecordGothic BlackItalic"),
+    url(../fonts/A2RecordGothic-BlackItalic.woff2) format("woff2");
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+}
