@@ -204,7 +204,93 @@ header .bottom-menu .bag .red{
     position: absolute;
     top: 25px;
     left:25px;
-    font-size: 29px;
+    font-size: clamp(24px, 37/1400 * 100vw, 37px);
     font-weight: 600;
     letter-spacing: -1px;
+}
+.main-banner .main-banner-wrapper .bike1{
+    width: 370px;
+    background-color: #fff;
+    position: absolute;
+    top:13%;
+    left:25px;
+    height: 65%;
+    border-radius: 1%;
+    padding: 0 14px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.main-banner .main-banner-wrapper .bike1:hover .view{
+    transform: translateY(-100px);
+    transition: 0.5s;
+}
+.main-banner .main-banner-wrapper .bike1:hover .compare{
+    transform: translateY(-100px);
+    transition: 0.5s;
+}
+.main-banner .main-banner-wrapper .bike1:hover .out-wrapper{
+    transform: translateY(100px);
+    transition: 0.5s;
+}
+.main-banner .main-banner-wrapper .bike1 .works{
+    padding: 14px 0 0;
+    font-size: clamp(18px, 20/1400 * 100vw, 20px);
+    font-weight: 600;
+}
+.main-banner .main-banner-wrapper .bike1 .spec{
+    font-weight: 300;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+}
+.main-banner .main-banner-wrapper .bike1 img{
+    width: 88%;
+    display: block;
+    margin: 21% auto 26%;
+}
+.main-banner .main-banner-wrapper .bike1 .out-wrapper{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+.main-banner .main-banner-wrapper .bike1 .out{
+    width: 90px;
+    height: 20px;
+    border:1px solid #EDEDED;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 20px;
+    font-weight: 500;
+}
+.main-banner .main-banner-wrapper .bike1 .com{
+    color:#858585;
+    letter-spacing: 1px;
+}
+.main-banner .main-banner-wrapper .bike1 .trans-wrapper{
+    display: flex;
+    transform: translateY(50px);
+    justify-content: space-between;
+}
+.main-banner .main-banner-wrapper .bike1 .view{
+    background-color: #e82525;
+    width: 48%;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    color: #fff;
+    border-radius: 10px;
+}
+.main-banner .main-banner-wrapper .bike1 .view:hover{
+    background-color: #000;
+}
+.main-banner .main-banner-wrapper .bike1 .compare{
+    background-color: #EDEDED;
+    width: 48%;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius:50px;
+}
+.main-banner .main-banner-wrapper .bike1 .compare:hover{
+    background-color: #000;
+    color: #fff;
 }
