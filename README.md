@@ -27,8 +27,8 @@ Header 영역 HTML, CSS 작업 완료 및 main banner 영역 HTML, CSS 작업 �
 
 02.
 
-❌ Header SEARCH 영역에 hover시 위에서 아래로 되는 애니메이션 효과시 위에 선이 보임
+❌ Header SEARCH 영역에 hover시 위에서 아래로 되는 애니메이션 효과시 위에 검정선이 보임
 
-⭕ gradiant의 값을 50%보다 적게 주어 선이 보이지 않도록 함
+⭕ gradiant의 값을 50%보다 적게 주어 검정선이 보이지 않도록 함
 
 ```
