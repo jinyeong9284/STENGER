@@ -24,6 +24,7 @@ Header 영역 HTML, CSS 작업 완료 및 main banner 영역 HTML, CSS 작업 �
 
 ⭕ 처음엔 display:flex를 줘서 margin에 고정값등으로 조절했으나 dispaly:grid로 수정하고 %로 수정함
 
+
 02.
 
 ❌ Header SEARCH 영역에 hover시 위에서 아래로 되는 애니메이션 효과시 위에 선이 보임
