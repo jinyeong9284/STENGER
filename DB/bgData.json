@@ -1,0 +1,111 @@
+[
+    {
+        "id":"img1",
+        "url":"./assets/images/best1.jpg",
+        "name":"TACTIC 4 HLMT",
+        "price":"€49,00",
+        "quality":"Specialized",
+        "bprice":"€110,00",
+        "con":"SALE",
+        "view":"VIEW"
+    },
+    {
+        "id":"img2",
+        "url":"./assets/images/best2.png",
+        "name":"BROAM 30 2022",
+        "price":"€1.749,00",
+        "quality":"Felt",
+        "bprice":"€2.290,00",
+        "con":"SALE",
+        "view":"VIEW",
+        "compare":"COMPARE"
+    },
+    {
+        "id":"img3",
+        "url":"./assets/images/best3.jpg",
+        "name":"STUMP JUMPER EVO EXPERT 2024",
+        "price":"€3.999,00",
+        "quality":"Specialized",
+        "bprice":"€6.6400,00",
+        "con":"OUT OF STOCK",
+        "view":"VIEW",
+        "compare":"COMPARE"
+    },
+    {
+        "id":"img4",
+        "url":"./assets/images/best4.png",
+        "name":"SPECIALISSIMA COMP ULTEGRA DI2 12SP",
+        "price":"€4.349,00",
+        "quality":"Bianchi",
+        "bprice":"€5.799,00",
+        "con":"SALE",
+        "view":"VIEW",
+        "compare":"COMPARE"
+    },
+    {
+        "id":"img5",
+        "url":"./assets/images/best5.png",
+        "name":"TREKKING 7 HIGH",
+        "price":"€3.499,00",
+        "quality":"Haibike",
+        "bprice":"€4.399,00",
+        "con":"SALE",
+        "view":"VIEW",
+        "compare":"COMPARE"
+    },
+    {
+        "id":"img6",
+        "url":"./assets/images/best6.png",
+        "name":"TREKKING 7 LOW",
+        "price":"€3.499,00",
+        "quality":"Haibike",
+        "bprice":"€4.399,00",
+        "con":"SALE",
+        "view":"VIEW",
+        "compare":"COMPARE"
+    },
+    {
+        "id":"img7",
+        "url":"./assets/images/best7.jpg",
+        "name":"RAVEN8.8",
+        "price":"€2.229,00",
+        "quality":"Focus",
+        "bprice":"€2.799,00",
+        "con":"SALE",
+        "view":"VIEW",
+        "compare":"COMPARE"
+    },
+    {
+        "id":"img8",
+        "url":"./assets/images/best8.png",
+        "name":"SCALPEL HT CARBON 4",
+        "price":"€1.839,00",
+        "quality":"Cannondale",
+        "bprice":"€2.299,00",
+        "con":"SALE",
+        "view":"VIEW",
+        "compare":"COMPARE"
+    },
+    {
+        "id":"img9",
+        "url":"./assets/images/best9.png",
+        "name":"SCALPEL HT CARBON 3",
+        "price":"€2.399,00",
+        "quality":"Cannondale",
+        "bprice":"€2.999,00",
+        "con":"OUT OF STOCK",
+        "view":"VIEW",
+        "compare":"COMPARE"
+    },
+    {
+        "id":"img10",
+        "url":"./assets/images/best10.png",
+        "name":"SCALPEL HT CARBON 2",
+        "price":"€3.199,00",
+        "quality":"Cannondale",
+        "bprice":"€3.999,00",
+        "con":"SALE",
+        "view":"VIEW",
+        "compare":"COMPARE"
+    }
+]

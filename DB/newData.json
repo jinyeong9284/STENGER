@@ -1,0 +1,23 @@
+[
+    {
+        "id":"img11",
+        "url":"./assets/images/new1.png",
+        "name":"HARDRAY E 7.0 29",
+        "price":"€2.999,00",
+        "quality":"Raymon",
+        "bprice":"€3.999,00",
+        "con":"SALE",
+        "view":"VIEW"
+    },
+    {
+        "id":"img12",
+        "url":"./assets/images/new2.webp",
+        "name":"TURBO PORTO",
+        "price":"€6.500,00",
+        "quality":"Specialized",
+        "bprice":"none",
+        "con":"compare",
+        "view":"VIEW",
+        "compare":"COMPARE"
+    }
+]
