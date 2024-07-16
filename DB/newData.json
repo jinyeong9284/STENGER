@@ -7,7 +7,8 @@
         "quality":"Raymon",
         "bprice":"€3.999,00",
         "con":"SALE",
-        "view":"VIEW"
+        "view":"VIEW",
+        "compare":"COMPARE"
     },
     {
         "id":"img12",
