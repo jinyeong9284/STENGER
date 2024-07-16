@@ -11,6 +11,61 @@
     },
     {
         "id":"img2",
+        "url":"./assets/images/in2.jpg",
+        "name":"ROVAL RAPIDE COCKPIT",
+        "price":"€580,00",
+        "quality":"Specialized",
+        "bprice":"no",
+        "con":"no",
+        "view":"VIEW",
+        "compare":"no"
+    },
+    {
+        "id":"img3",
+        "url":"./assets/images/in3.jpg",
+        "name":"CAMBER HLMT CE",
+        "price":"€65,00",
+        "quality":"Specialized",
+        "bprice":"no",
+        "con":"no",
+        "view":"VIEW",
+        "compare":"no"
+    },
+    {
+        "id":"img4",
+        "url":"./assets/images/in4.jpeg",
+        "name":"S-WORKS TORCH RD SHOE WHITE",
+        "price":"€390,00",
+        "quality":"Specialized",
+        "bprice":"no",
+        "con":"no",
+        "view":"VIEW",
+        "compare":"no"
+    },
+    {
+        "id":"img5",
+        "url":"./assets/images/in5.jpg",
+        "name":"LEVO CARBON NB",
+        "price":"€5.900,00",
+        "quality":"Specialized",
+        "bprice":"no",
+        "con":"COMPARE",
+        "view":"VIEW",
+        "compare":"COMPARE"
+    },
+    {
+        "id":"img6",
+        "url":"./assets/images/in6.jpg",
+        "name":"DIVERGE STR EXPERT 2023",
+        "price":"€7.000,00",
+        "quality":"Specialized",
+        "bprice":"no",
+        "con":"COMPARE",
+        "view":"VIEW",
+        "compare":"COMPARE"
+    },
+    {
+        "id":"img2",
         "url":"./assets/images/best2.png",
         "name":"BROAM 30 2022",
         "price":"€1.749,00",
@@ -21,91 +76,36 @@
         "compare":"COMPARE"
     },
     {
-        "id":"img3",
-        "url":"./assets/images/best3.jpg",
-        "name":"STUMP JUMPER EVO EXPERT 2024",
-        "price":"€3.999,00",
+        "id":"img8",
+        "url":"./assets/images/in8.jpg",
+        "name":"SIRRUS 2.0 EQ",
+        "price":"€900,00",
         "quality":"Specialized",
-        "bprice":"€6.6400,00",
-        "con":"OUT OF STOCK",
+        "bprice":"no",
+        "con":"NEW",
         "view":"VIEW",
-        "compare":"COMPARE"
-    },
-    {
-        "id":"img4",
-        "url":"./assets/images/best4.png",
-        "name":"SPECIALISSIMA COMP ULTEGRA DI2 12SP",
-        "price":"€4.349,00",
-        "quality":"Bianchi",
-        "bprice":"€5.799,00",
-        "con":"SALE",
-        "view":"VIEW",
-        "compare":"COMPARE"
-    },
-    {
-        "id":"img5",
-        "url":"./assets/images/best5.png",
-        "name":"TREKKING 7 HIGH",
-        "price":"€3.499,00",
-        "quality":"Haibike",
-        "bprice":"€4.399,00",
-        "con":"SALE",
-        "view":"VIEW",
-        "compare":"COMPARE"
-    },
-    {
-        "id":"img6",
-        "url":"./assets/images/best6.png",
-        "name":"TREKKING 7 LOW",
-        "price":"€3.499,00",
-        "quality":"Haibike",
-        "bprice":"€4.399,00",
-        "con":"SALE",
-        "view":"VIEW",
-        "compare":"COMPARE"
-    },
-    {
-        "id":"img7",
-        "url":"./assets/images/best7.jpg",
-        "name":"RAVEN8.8",
-        "price":"€2.229,00",
-        "quality":"Focus",
-        "bprice":"€2.799,00",
-        "con":"SALE",
-        "view":"VIEW",
-        "compare":"COMPARE"
+        "compare":"no"
     },
     {
         "id":"img8",
-        "url":"./assets/images/best8.png",
-        "name":"SCALPEL HT CARBON 4",
-        "price":"€1.839,00",
-        "quality":"Cannondale",
-        "bprice":"€2.299,00",
-        "con":"SALE",
+        "url":"./assets/images/in8.jpg",
+        "name":"SIRRUS 3.0 EQ",
+        "price":"€1.100,00",
+        "quality":"Specialized",
+        "bprice":"no",
+        "con":"NEW",
         "view":"VIEW",
-        "compare":"COMPARE"
-    },
-    {
-        "id":"img9",
-        "url":"./assets/images/best9.png",
-        "name":"SCALPEL HT CARBON 3",
-        "price":"€2.399,00",
-        "quality":"Cannondale",
-        "bprice":"€2.999,00",
-        "con":"OUT OF STOCK",
-        "view":"VIEW",
-        "compare":"COMPARE"
+        "compare":"no"
     },
     {
         "id":"img10",
-        "url":"./assets/images/best10.png",
-        "name":"SCALPEL HT CARBON 2",
-        "price":"€3.199,00",
-        "quality":"Cannondale",
-        "bprice":"€3.999,00",
-        "con":"SALE",
+        "url":"./assets/images/in10.jpg",
+        "name":"COMO 4.0 IGH NB",
+        "price":"€3.900,00",
+        "quality":"Specialized",
+        "bprice":"no",
+        "con":"NEW",
         "view":"VIEW",
-        "compare":"COMPARE"
+        "compare":"no"
     }
 ]

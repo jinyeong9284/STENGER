@@ -741,3 +741,100 @@ header .bottom-menu .bag .red{
     background-color: #000;
     color: #fff;
 }
+.best-wrapper .in-wrapper li:first-child .compare{
+    display: none;
+}
+.best-wrapper .in-wrapper li:first-child .view{
+    width: 24vw;
+}
+.best-wrapper .in-wrapper li:nth-child(2) .compare{
+    display: none;
+}
+.best-wrapper .in-wrapper li:nth-child(2) .con{
+    display: none;
+}
+.best-wrapper .in-wrapper li:nth-child(2) .view{
+    width: 24vw;
+}
+.best-wrapper .in-wrapper li:nth-child(3) .compare{
+    display: none;
+}
+.best-wrapper .in-wrapper li:nth-child(3) .view{
+    width: 24vw;
+}
+.best-wrapper .in-wrapper li:nth-child(3) .con{
+    display: none;
+}
+.best-wrapper .in-wrapper li:nth-child(4) .compare{
+    display: none;
+}
+.best-wrapper .in-wrapper li:nth-child(4) .view{
+    width: 24vw;
+}
+.best-wrapper .in-wrapper li:nth-child(4) .con{
+    display: none;
+}
+.best-wrapper .in-wrapper li:nth-child(8) .compare{
+    display: none;
+}
+.best-wrapper .in-wrapper li:nth-child(8) .view{
+    width: 24vw;
+}
+.best-wrapper .in-wrapper li:nth-child(9) .compare{
+    display: none;
+}
+.best-wrapper .in-wrapper li:nth-child(9) .view{
+    width: 24vw;
+}
+.best-wrapper .in-wrapper li:nth-child(10) .compare{
+    display: none;
+}
+.best-wrapper .in-wrapper li:nth-child(10) .view{
+    width: 24vw;
+}
+.best-wrapper .in-wrapper li:nth-child(5) .con{
+    text-transform: uppercase;
+    border: 0;
+    right: 10px;
+    color: #858585;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.best-wrapper .in-wrapper li:nth-child(6) .con{
+    text-transform: uppercase;
+    border: 0;
+    right: 10px;
+    color: #858585;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.best-wrapper .in-wrapper li:nth-child(5):hover .con{
+    transform: translateY(500px);
+}
+.best-wrapper .in-wrapper li:nth-child(6):hover .con{
+    transform: translateY(500px);
+}
+.best-wrapper .in-wrapper li:last-child .bprice{
+    display: none;
+}
+.best-wrapper .in-wrapper li:nth-child(2) .bprice{
+    display: none;
+}
+.best-wrapper .in-wrapper li:nth-child(3) .bprice{
+    display: none;
+}
+.best-wrapper .in-wrapper li:nth-child(4) .bprice{
+    display: none;
+}
+.best-wrapper .in-wrapper li:nth-child(5) .bprice{
+    display: none;
+}
+.best-wrapper .in-wrapper li:nth-child(6) .bprice{
+    display: none;
+}
+.best-wrapper .in-wrapper li:nth-child(8) .bprice{
+    display: none;
+}
+.best-wrapper .in-wrapper li:nth-child(9) .bprice{
+    display: none;
+}

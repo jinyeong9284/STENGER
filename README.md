@@ -1,3 +1,19 @@
+# 24.07.16
+
+bestsellers 영역 HTML, CSS, JS 완료 - json, ajax를 사용한 상품리스트
+
+**문제점 및 해결**
+
+```
+
+01.
+
+❌ json을 활용한 리스트 형식이라 모든 버튼을 DB에 저장해야하는 것에 대한 어려움이 있었음
+
+⭕ hover에 있는 버튼의 내용도 DB에 저장하여 display:none과 display:block을 활용하여 해결함
+
+```
+
 # 24.07.15
 
 OUR PRODUCTS 영역 HTML, CSS, JS 작업 완료 및 bestsellers HTML 완료, Header 영역 스크롤 이벤트 JS 구현완료
