@@ -1,3 +1,17 @@
+# 24.07.18
+
+experience, components, highlights 영역 HTML, CSS 완료
+
+```
+
+01.
+
+❌ experience 영역에서 li영역에 border-left를 하게 되면 위에 빈공간이 나오는 현상이 발생
+
+⭕ after를 이용해 block으로 만들어 height값으로 빈공간을 없앰
+
+```
+
 # 24.07.16
 
 bestsellers 영역 HTML, CSS, JS 완료 - json, ajax를 사용한 상품리스트
