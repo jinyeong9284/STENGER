@@ -1101,31 +1101,27 @@ padding-left: 20px;
 }
 .find-wrapper .find-container2 .find-flex1{
     width: 50%;
+    position: relative;
 }
 .find-wrapper .find-container2 .find-flex1 p{
-    width: 40%;
-    font-size: clamp(12px, 18/1400 * 100vw, 18px);
+    width: 300px;
+    font-size: 18px;
     font-weight: 300;
-    margin-top:20%;
+    position: absolute;
+    bottom:10px;
 }
 .find-wrapper .find-container2 .find-flex2{
     display: flex;
     width: 50%;
     margin-top: 4%;
-}
-.find-wrapper .find-container2 .find-flex2::before{
-    content: "";
-    display: block;
-    height: 90%;
-    width: 2px;
-    background-color: #000;
-    margin-right:15px ;
+    height: 30%;
+    padding-bottom: 10px;
 }
 .find-wrapper .find-container2 .find-flex2 img{
-    width: 45%;
-    height: 80%;
+    width: 310px;
     object-fit: cover;
     border-radius: 5px;
+    margin-left: 13px;
 }
 .find-wrapper .find-container2 .find-flex2 .take-wrapper{
     margin-left: 15px;
@@ -1148,9 +1144,149 @@ padding-left: 20px;
     display: grid;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 .find-wrapper .find-container2 .find-flex2 .take-wrapper .button p{
     font-weight: 400;
     font-family: var(--font-normal);
     font-size: 16px;
+}
+.find-wrapper .find-container2 .line-middle{
+    display: block;
+    width: 2px;
+    height: 225px;
+    background-color: #000;
+    margin-top: 50px;
+}
+.find-wrapper .line-bottom{
+    width: calc(100% - 84px);
+    background-color: #000;
+    height: 2px;
+    position: relative;
+    bottom: 0;
+    margin: auto;
+}
+/* unleash */
+.unleash-wrapper{
+    width: 100%;
+}
+.unleash-wrapper .line{
+    width: calc(100% - 84px);
+    height:clamp(20px, 30/1400 * 100vw, 30px);
+    background-color: #000;
+    border-radius: 4px;
+    margin:14% auto 0;
+}
+.unleash-wrapper .unleash-container{
+    padding: 0 42px;
+    position: relative;
+}
+.unleash-wrapper .unleash-container span{
+    font-size: clamp(45px, 140/1400 * 100vw, 140/1400 * 100vw);
+    font-weight: 500;
+    letter-spacing: -3px;
+}
+.unleash-wrapper .unleash-container .unleash-flex img{
+    width: 15%;
+    aspect-ratio: 16/8;
+    object-fit: cover;
+    margin-top: 18px;
+}
+.unleash-wrapper .unleash-container .unleash-flex .mar{
+  margin-left: 1%;
+}
+.unleash-wrapper .unleash-container .unleash-flex .mar1{
+    position:absolute ;
+    right: 28vw;
+    top:0;
+}
+.unleash-wrapper .unleash-container .unleash-flex .mar2{
+    position:absolute ;
+    right: 42px;
+    top:0;
+}
+.unleash-wrapper .unleash-container .con2{
+    position: relative;
+    margin-top: -3%;
+}
+.unleash-wrapper .unleash-container .con2 .mar1{
+    position: absolute;
+    right: 45%;
+}
+.unleash-wrapper .unleash-container .con2 .mar2{
+    position: absolute;
+    right: 20%;
+}
+.unleash-wrapper .unleash-container .con2 .mar3{
+    right: 0;
+    position: absolute;
+}
+.unleash-wrapper .unleash-container2{
+    display: flex;
+    padding: 60px 42px;
+}
+.unleash-wrapper .unleash-container2 p{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.1;
+    letter-spacing: 1px;
+}
+.unleash-wrapper .unleash-container2 .button{
+    width: 135px;
+    height: 45px;
+    background-color: #e82525;
+    color: #fff;
+    border-radius: 3px;
+    margin-top: 30px;
+    font-family: var(--font-normal);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.unleash-wrapper .unleash-container2 .button p{
+    font-size: 15px;
+    font-weight: 500;
+}
+.unleash-wrapper .unleash-container2 .button:hover{
+    background-color: #000;
+    transition: 0.5s;
+}
+.unleash-wrapper .unleash-container2 ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 20%;
+    width: 60%;
+    cursor: pointer;
+}
+.unleash-wrapper .unleash-container2 ul li{
+    border-top: 1px solid #000;
+    position: relative;
+    transition: 0.2s;
+}
+.unleash-wrapper .unleash-container2 ul li .view{
+    position: absolute;
+    top: 36%;
+    left: 3%;
+    font-size: clamp(9px, 14/1400 * 100vw, 14px);
+    font-weight: 500;
+    display: none;
+}
+.unleash-wrapper .unleash-container2 ul li .con2{
+    font-size: clamp(20px, 25/1400 * 100vw, 25px);
+    font-weight: 500;
+    line-height: 2.2;
+    padding-left: 18%;
+    background: url(./assets/images/arrow.png) no-repeat 30px / 12px;
+}
+.unleash-wrapper .unleash-container2 ul li:hover{
+    background-color: #000;
+    color: #fff;
+    border-radius: 4px;
+    transition: 0.2s;
+}
+.unleash-wrapper .unleash-container2 ul li:hover .view{
+    display: block;
 }
