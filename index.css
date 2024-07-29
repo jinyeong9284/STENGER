@@ -856,7 +856,7 @@ header .bottom-menu .bag .red{
     background-color: #fff;
     border-radius: 4px;
 }
-.experience-wrapper .text-wrapper p{
+.experience-wrapper .text-wrapper .text{
     font-weight: 500;
     font-size: clamp(80px, 220/1400 * 100vw, 220/1400 * 100vw);
     letter-spacing: -5px;
@@ -866,7 +866,7 @@ header .bottom-menu .bag .red{
     position: relative;
     margin-top: 20px;
 }
-.experience-wrapper .text-wrapper p span{
+.experience-wrapper .text-wrapper .text-right{
     font-size: 10px;
     position: absolute;
     width: 120px;
@@ -874,7 +874,7 @@ header .bottom-menu .bag .red{
     font-family: var(--font-normal);
     letter-spacing:0;
 }
-.experience-wrapper .text-wrapper p:first-child span{
+.experience-wrapper .text-wrapper p:first-child .text-right{
     bottom: 20%;
     right: 15%;
 }
@@ -883,7 +883,7 @@ header .bottom-menu .bag .red{
     margin-top: -6%;
     left:10%;
 }
-.experience-wrapper .text-wrapper p:nth-child(2) span{
+.experience-wrapper .text-wrapper p:nth-child(2) .text-right{
     top:45%;
     width: 200px;
     right:8%;
@@ -893,7 +893,7 @@ header .bottom-menu .bag .red{
     margin-top: -6%;
     left: 17%;
 }
-.experience-wrapper .text-wrapper p:nth-child(3) span{
+.experience-wrapper .text-wrapper p:nth-child(3) .text-right{
     position: absolute;
     left:-17%;
     bottom: 30%;
@@ -921,6 +921,9 @@ header .bottom-menu .bag .red{
     font-weight: 500;
     margin-bottom: 1%;
     line-height: 1.5;
+}
+.experience-wrapper .text-wrapper2 ul li span{
+    position: relative;
 }
 .experience-wrapper .text-wrapper2 ul li .content{
     margin-left: 15%;
@@ -1289,4 +1292,7 @@ padding-left: 20px;
 }
 .unleash-wrapper .unleash-container2 ul li:hover .view{
     display: block;
+}
+.next{
+    height: 100vh;
 }

@@ -1,3 +1,6 @@
+// AOS
+AOS.init();
+
 // header event
 const elem = document.documentElement;
 $(window).on("scroll", () => {
@@ -231,3 +234,182 @@ $.ajax({
         console.log('AJAX 요청 실패:', xhr, status, error);
     }
 });
+
+// experience-wrapper
+gsap.set(".experience-wrapper .text-wrapper p:first-child", {
+    top: 30,
+    opacity:0,
+  });
+  
+  gsap
+    .timeline({
+      scrollTrigger: {
+        trigger: ".experience-wrapper",
+        scrub: 1,
+        start: "-=500",
+        end: "center bottom",
+      },
+    })
+    .to(".experience-wrapper .text-wrapper p:first-child", {
+      top: 0,
+      opacity:1,
+      duration: 1,
+      ease: "none",
+      stagger: 1,
+      transition: 0.3,
+    });
+
+gsap.set(".experience-wrapper .text-wrapper p:nth-child(2)", {
+    top: 30,
+    opacity:0,
+    });
+      
+    gsap
+     .timeline({
+      scrollTrigger: {
+      trigger: ".experience-wrapper",
+      scrub: 3,
+      start: "-=300",
+      end: "center bottom",
+    },
+    })
+     .to(".experience-wrapper .text-wrapper p:nth-child(2)", {
+      top: 0,
+      opacity:1,
+      duration: 1,
+      ease: "none",
+      transition: 0.1,
+    });
+
+gsap.set(".experience-wrapper .text-wrapper p:nth-child(3)", {
+    top: 30,
+    opacity:0,
+    });
+          
+    gsap
+     .timeline({
+        scrollTrigger: {
+        trigger: ".experience-wrapper",
+        scrub: 3,
+        start: "-=100",
+        end: "center bottom",
+        },
+        })
+     .to(".experience-wrapper .text-wrapper p:nth-child(3)", {
+        top: 0,
+        opacity:1,
+        duration: 1,
+        ease: "none",
+        transition: 0.1,
+        });
+
+gsap.set(".experience-wrapper .text-wrapper2 ul li", {
+    opacity:0,
+    width:"50%",
+    });
+          
+    gsap
+     .timeline({
+        scrollTrigger: {
+        trigger: ".experience-wrapper",
+        scrub: 3,
+        start: "center center",
+        end: "center bottom",
+        },
+        })
+     .to(".experience-wrapper .text-wrapper2 ul li", {
+        opacity:1,
+        width:"100%",
+        duration: 1,
+        ease: "none",
+        transition: 0.1,
+        });
+
+gsap.set(".experience-wrapper .text-wrapper2 ul li span", {
+    opacity:0,
+    top:20,
+    });
+          
+    gsap
+     .timeline({
+        scrollTrigger: {
+        trigger: ".experience-wrapper",
+        scrub: 3,
+        start: "center center",
+        end: "center bottom",
+        },
+        })
+     .to(".experience-wrapper .text-wrapper2 ul li span", {
+        opacity:1,
+        top:0,
+        duration: 1,
+        ease: "none",
+        transition: 0.1,
+        });
+
+// find-wrapper
+gsap.set(".find-wrapper .h3:nth-of-type(1)", {
+    opacity:0,
+    top:100
+    });
+          
+    gsap
+     .timeline({
+        scrollTrigger: {
+        trigger: ".find-wrapper",
+        scrub: 1,
+        start: "-=1000",
+        end: "center bottom",
+        },
+        })
+     .to(".find-wrapper .h3:nth-of-type(1)", {
+        opacity:1,
+        top:0,
+        duration: 0.5,
+        ease: "none",
+        transition: 0.1,
+        });
+
+gsap.set(".find-wrapper .h3:nth-of-type(2)", {
+    opacity:0,
+    top:"30%"
+    });
+          
+    gsap
+     .timeline({
+        scrollTrigger: {
+        trigger: ".find-wrapper",
+        scrub: 1,
+        start: "-=1000",
+        end: "center bottom",
+        },
+        })
+     .to(".find-wrapper .h3:nth-of-type(2)", {
+        opacity:1,
+        top:"14%",
+        duration: 0.5,
+        ease: "none",
+        transition: 0.1,
+        });
+
+gsap.set(".find-wrapper .h3:nth-of-type(3)", {
+    opacity:0,
+    top:"50%"
+    });
+          
+    gsap
+     .timeline({
+        scrollTrigger: {
+        trigger: ".find-wrapper",
+        scrub: 1,
+        start: "-=1000",
+        end: "center bottom",
+        },
+        })
+     .to(".find-wrapper .h3:nth-of-type(3)", {
+        opacity:1,
+        top:"30%",
+        duration: 0.5,
+        ease: "none",
+        transition: 0.1,
+        });
