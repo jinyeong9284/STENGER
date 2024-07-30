@@ -413,3 +413,4 @@ gsap.set(".find-wrapper .h3:nth-of-type(3)", {
         ease: "none",
         transition: 0.1,
         });
+
