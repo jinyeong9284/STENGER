@@ -206,7 +206,6 @@ header .bottom-menu .bag .red{
     position: relative;
 }
 .main-banner .main-banner-wrapper .main-img{
-    width: 1700px;
     height: 100vh;
     background: url(./assets/images/4Q5A9296_f2c5f330-923f-42f2-8173-a6067608fb59.jpg) 100% / cover;
     opacity: 0.8;
@@ -226,7 +225,7 @@ header .bottom-menu .bag .red{
     position: absolute;
     top:13%;
     left:25px;
-    height: 65%;
+    height: 490px;
     border-radius: 1%;
     padding: 0 14px;
     overflow: hidden;
@@ -965,9 +964,9 @@ header .bottom-menu .bag .red{
     font-weight: 600;
     font-size: clamp(20px, 32/1400 * 100vw, 32px);
     margin-top: 5px;
-    width: 50%;
     line-height: 1;
     letter-spacing: -1px;
+    width: 40%;
 }
 .com-wrapper .com-container .explore{
     position: absolute;
@@ -997,7 +996,6 @@ padding-left: 20px;
     margin-top:8%;
 }
 .main-banner .main-banner-wrapper .high-img{
-    width: 1700px;
     height: 100vh;
     background: url(./assets/images/high.jpg) 70% / cover;
     opacity: 0.8;
@@ -1030,7 +1028,7 @@ padding-left: 20px;
     justify-items: center;
     position: relative;
 }
-.find-wrapper svg{
+.find-wrapper .back-svg{
     width: 55%;
     height: 100%;
 }
@@ -1070,6 +1068,30 @@ padding-left: 20px;
     right: 42px;
     top:30%;
 }
+.find-wrapper .line-svg-wrapper{
+    position: absolute;
+    top:30%;
+    left: 10%;
+    width: 25%;
+}
+.find-wrapper .line-svg{
+    fill: none;
+    stroke: #e82525;
+    stroke-linecap: square;
+    stroke-miterlimit:100;
+    stroke-width: 23;
+    stroke-dasharray: 1200;
+    stroke-dashoffset: 1000;
+    animation: draw 4s linear infinite;
+}
+@keyframes draw {
+    0% {
+      stroke-dashoffset: 1000;
+    }
+    100% {
+      stroke-dashoffset: 0;
+    }
+  }
 .find-wrapper span:nth-of-type(3){
     top:71%;
     width: 100px;
@@ -1157,7 +1179,7 @@ padding-left: 20px;
 .find-wrapper .find-container2 .line-middle{
     display: block;
     width: 2px;
-    height: 225px;
+    height: 240px;
     background-color: #000;
     margin-top: 50px;
 }
@@ -1536,15 +1558,28 @@ footer .shop{
     border-bottom: 1px solid #858585;
     border-right: 1px solid #858585;
     cursor: pointer;
+    transition: 0.5s;
 }
 footer .shop p{
     line-height: 1;
+}
+footer .shop .sh:hover{
+    color: #858585;
+    transition: 0.5s;
+}
+footer .shop .al:hover{
+    color: #858585;
+    transition: 0.5s;
+}
+footer .shop .se:hover{
+    color: #858585;
+    transition: 0.5s;
 }
 footer .blog{
     padding-left: 5%;
     border-bottom: 1px solid #858585;
     border-right: 1px solid #858585;
-    padding-bottom: 15%;
+    padding-bottom: 13%;
 }
 footer .blog .con1{
     font-size: clamp(18px, 23/1400 * 100vw, 23px);
@@ -1589,7 +1624,7 @@ footer .support p{
     cursor: pointer;
 }
 footer .visit{
-    margin-top: 12%;
+    margin-top: 10%;
     border-bottom: 1px solid #858585;
 }
 footer .visit .con1{
@@ -1601,7 +1636,6 @@ footer .visit .con1{
 footer .visit p{
     font-size: 19px;
     font-weight: 300;
-    cursor: pointer;
 }
 footer .visit .button{
     font-family: var(--font-normal);
@@ -1612,7 +1646,12 @@ footer .visit .button{
     padding: 10px 10px;
     font-size: clamp(10px, 16/1400 * 100vw, 16px);
     border-radius: 5px;
-    margin-top: 5%;
+    margin-top: 8%;
+    cursor: pointer;
+}
+footer .visit .button:hover{
+    background-color: #fff;
+    color: #000;
 }
 footer .closed{
     padding-top: 6%;
@@ -1623,7 +1662,6 @@ footer .closed{
 footer .closed p{
     font-size: 19px;
     font-weight: 300;
-    cursor: pointer;
 }
 footer .closed .we-button{
     font-size: 13px;
@@ -1635,7 +1673,6 @@ footer .closed .we-button{
     padding: 5px 0;
     margin-top: 20px;
     margin-bottom: 15%;
-    cursor: auto;
 }
 footer .closed .we-button::after{
     content: "";
@@ -1650,9 +1687,10 @@ footer .closed .we-button::after{
 footer .closed .clock{
     display: flex;
     line-height: 2.5;
+    cursor: pointer;
 }
 footer .discover{
-    padding-top: 12%;
+    padding-top: 10%;
     padding-left: 5%;
     border-right: 1px solid #858585;
     border-bottom: 1px solid #858585;
@@ -1673,9 +1711,13 @@ footer .discover .button{
     font-size: clamp(10px, 16/1400 * 100vw, 16px);
     border-radius: 5px;
     margin-top: 20%;
+    cursor: pointer;
+}footer .discover .button:hover{
+    background-color: #fff;
+    color: #000;
 }
 footer .contact{
-    margin-top: 12%;
+    margin-top: 10%;
     padding-left: 5%;
     border-bottom: 1px solid #858585;
 }
@@ -1695,4 +1737,80 @@ footer .contact .button{
     font-size: clamp(10px, 16/1400 * 100vw, 16px);
     border-radius: 5px;
     margin-top: 20%;
+    cursor: pointer;
+}
+footer .contact .button:hover{
+    background-color: #fff;
+    color: #000;
+}
+footer .deutsch{
+    font-family: var(--font-normal);
+    font-size: 13px;
+    padding-top: 10%;
+    cursor: pointer;
+}
+footer .icon-wrapper{
+    padding-top: 10%;
+    padding-left: 5%;
+    cursor: pointer;
+}
+footer .icon-wrapper .facebook:hover{
+    color: #e82525;
+}
+footer .icon-wrapper .instagram:hover{
+    color: #e82525;
+}
+footer .icon-wrapper .instagram{
+    margin-left: 3%;
+}
+footer .icon-wrapper .youtube:hover{
+    color: #e82525;
+}
+footer .icon-wrapper .youtube{
+    margin-left: 3%;
+}
+footer .imprint{
+    font-size: 13px;
+    font-family: var(--font-normal);
+    padding-top: 10%;
+    padding-left: 5%;
+    line-height: 1.5;
+    cursor: pointer;
+}
+footer .website{
+    padding-top: 10%;
+    padding-left: 5%;
+    letter-spacing: 0.5px;
+}
+footer .website span{
+    text-decoration: underline;
+    cursor: pointer;
+}
+footer .website span:hover{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1400px) {
+
+    .find-wrapper .find-container2{
+        display: block;
+    }
+    .find-wrapper .find-container2 .line-middle{
+        display: none;
+    }
+    .find-wrapper .line-bottom{
+        display: none;
+    }
+    .find-wrapper .find-container2 .find-flex1 p{
+        position: relative;
+        top:12vw;
+    }
+    .find-wrapper .find-container2 .find-flex2{
+        margin-top: 14%;
+    }
+    .find-wrapper .find-container2 .find-flex2 img{
+        margin-left: 0;
+        width: 100%;
+        aspect-ratio: 16/8;
+    }
 }
