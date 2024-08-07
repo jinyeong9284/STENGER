@@ -82,15 +82,36 @@ $(document).ready(function(){
 })
 
 // bestsellers swiper
-let swiper = new Swiper(".mySwiper", {
-    slidesPerView: 3.5,
-    centeredSlides: false,
-    grabCursor: true,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-  });
+let swiper;
+
+        function initializeSwiper() {
+            if (swiper) {
+                swiper.destroy(true, true);  // Destroy existing Swiper instance
+            }
+            // Create a new Swiper instance
+            swiper = new Swiper(".mySwiper", {
+                slidesPerView: window.innerWidth <= 1000 ? 2 : 3.5,
+                centeredSlides: false,
+                grabCursor: true,
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+            });
+        }
+
+        // Initialize Swiper on page load
+        initializeSwiper();
+
+        lastWidth = window.innerWidth;
+        $(window).resize(function () {
+          if (window.innerWidth != lastWidth) {
+            location.reload();
+            scrollTrigger.refresh();
+          }
+          lastWidth = window.innerWidth;
+        });
+        
 
 // bestsellers button
 $(document).ready(function() {
