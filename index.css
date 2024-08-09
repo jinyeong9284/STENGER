@@ -188,6 +188,9 @@ header .bottom-menu .bag .red{
     font-size: 10px;
     color: #fff;
 }
+.mobile-header{
+    display: none;
+}
 
 /* main-banner */
 .main-banner{
@@ -1878,16 +1881,140 @@ footer .website span:hover{
 }
 
 @media screen and (max-width:1000px) {
+    header{
+        display: none;
+    }
+    .mobile-header{
+        width: 100%;
+        position: fixed;
+        top: 0;
+        padding: 14px 10px;
+        background-color: #fff;
+        z-index: 9999;
+        display: block;
+    }
+    .mobile-header .menu{
+        position: absolute;
+        top:35%;
+    }
+    .mobile-header .menu .menu1{
+        width: 30px;
+        height: 3px;
+        background-color: #e82525;
+    }
+    .mobile-header .menu .menu2{
+        width: 15px;
+        height: 3px;
+        background-color: #e82525;
+    }
+    .mobile-header .menu .mar{
+        margin-top: 2px;
+        margin-bottom: 2px;
+    }
+    .mobile-header .logo{
+        color:#e82525;
+        display: block;
+        width: 130px;
+        font-weight: 700;
+        font-size: 20px;
+        font-style: italic;
+        text-decoration: none;
+        position: relative;
+        letter-spacing: 0.05rem;
+        left: 50px;
+    }
+    .mobile-header .logo span{
+        font-size: 9px;
+        position: absolute;
+        top:3px;
+    }
+    .mobile-header .search{
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background-color: #EDEDED;
+        position: absolute;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        transition: 0.5s;
+        top: 10px;
+        right:140px;
+    }
+    .mobile-header .search p{
+        width: 32px;
+        height: 32px;
+        text-indent: -9999px;
+        background: url(./assets/images/search.png) no-repeat 50% / 14px;
+    }
+    .mobile-header .cal{
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background-color: #EDEDED;
+        position: absolute;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        transition: 0.5s;
+        top: 10px;
+        right: 85px;
+    }
+    .mobile-header .cal p{
+        width: 32px;
+        height: 32px;
+        text-indent: -9999px;
+        background:url(./assets/images/cal.png) no-repeat 50% / 14px;
+    }
+    .mobile-header .bag{
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background-color: #EDEDED;
+        position: absolute;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        transition: 0.5s;
+        top: 10px;
+        right: 30px;
+    }
+    .mobile-header .bag p{
+        width: 32px;
+        height: 32px;
+        text-indent: -9999px;
+        background:url(./assets/images/bag.png) no-repeat 50% / 14px;
+    }
+    .mobile-header .bag .red{
+        width: 18px;
+        height: 18px;
+        background-color: #e82525;
+        position: absolute;
+        border-radius: 50%;
+        top:-5px;
+        right: -3px;
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        font-size: 10px;
+        color: #fff;
+    }
     .main-banner{
         padding: 0;
+    }
+    .main-banner svg{
+        margin-top: 5vh;
     }
     .main-banner .main-banner-wrapper .main-img{
         width: 100%;
         aspect-ratio: 16/9;
-        height: 60vh;
+        height: 55vw;
     }
     .main-banner .main-banner-wrapper{
-        height: 60vh;
+        height: 55vw;
         width: 100%;
         position: relative;
         border-radius: 0;
@@ -1963,7 +2090,7 @@ footer .website span:hover{
 
     /* hightlight */
     .main-banner .main-banner-wrapper .high-img{
-        height: 60vh;
+        height: 55vw;
         background: url(./assets/images/high.jpg) 70% / cover;
         opacity: 0.8;
     }
@@ -2016,10 +2143,13 @@ footer .website span:hover{
         width: calc(100% - 20px);
     }
     .unleash-wrapper .unleash-container{
-        padding: 0 10px;
+        padding: 0 10px; 
     }
     .unleash-wrapper .unleash-container2{
         padding: 60px 10px;
+    }
+    .unleash-wrapper .unleash-container .unleash-flex .mar2{
+        right: 12px;
     }
 
     /* feeling */
@@ -2029,9 +2159,89 @@ footer .website span:hover{
     .feeling-wrapper .feeling-container{
         padding: 0 10px;
     }
+    .feeling-wrapper .feeling-container .feeling-flex .mar2{
+        right: 12px;
+    }
 
     /* footer */
     footer{
         padding:0 10px;
+        display: grid;
+        grid-template-columns:repeat(2,1fr);
+        grid-template-rows:repeat(6,1fr);
+    }
+    footer .visit .button{
+        margin-top: 7%;
+    }
+    footer .shop{
+        grid-column: 1/3;
+        grid-row: 1/2;
+        border-bottom: none;
+        border-right: none;
+        font-weight: 500;
+        font-size: clamp(40px, 71 / 1400* 100vw, 71px);
+        font-family: "A2RecordGothicCon", -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+    }
+    footer .blog{
+        grid-column: 1/2;
+        grid-row: 2/3;
+        padding: 0;
+        padding-bottom: 40px;
+    }
+    footer .about{
+        grid-column: 2/3;
+        grid-row: 2/3;
+        border-right: none;
+        padding-left: 12px;
+    }
+    footer .support{
+        grid-column: 1/2;
+        grid-row: 3/4;
+        padding: 0;
+        padding-top: 40px;
+        border-right: 1px solid #858585;
+    }
+    footer .icon-wrapper{
+        grid-column: 2/3;
+        grid-row: 3/4;
+        border-bottom: 1px solid #858585;
+        padding-left: 12px;
+    }
+    footer .visit{
+        grid-column: 1/2;
+        grid-row: 4/5;
+        border-right: none;
+        border-bottom: 1px solid #858585;
+    }
+    footer .closed{
+        grid-column: 2/3;
+        grid-row: 4/5;
+        padding-left: 5%;
+        border-right: none;
+        padding-left: 12px;
+    }
+    footer .discover{
+        grid-column: 1/2;
+        grid-row: 5/6;
+        padding: 0;
+        padding-top: 40px;
+    }
+    footer .contact{
+        grid-column: 2/3;
+        grid-row: 5/6;
+        padding-left: 12px;
+    }
+    footer .deutsch{
+        grid-column: 1/2;
+        grid-row: 6/7;
+    }
+    footer .imprint{
+        grid-column: 2/3;
+        grid-row: 6/7;
+        padding-left: 12px;
+    }
+    footer .website{
+        padding: 0;
+        padding-bottom: 100px;
     }
 }
